@@ -1,0 +1,27 @@
+//Header
+width = 600
+pheight = 400
+//Balls
+ball Germany = Germany ( facing = right )
+ball Greece = Greece ( facing = left )
+//Comic
+1 {
+Germany: Greece, pay denbts
+Greece
+}
+2 {
+Germany
+Greece: No
+}
+3 {
+Germany[face=angry]: Pay denbts!
+Greece
+}
+4 {
+Germany[face=worried,facing=right-up]
+Greece[font=large,font=bold,size=medium-large]: NO!
+}
+5 {
+Greece
+Germany[face=sad]
+}
